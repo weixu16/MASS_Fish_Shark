@@ -1,13 +1,17 @@
 # MASS_Wa-Tor
 Multi-Agent Spatial Simulation of Wa-Tor
 
+
 ## MASS (Multi-Agent Spatial Simulation)
 
 The MASS library, the manual, and sample programs are found:
+
 http://depts.washington.edu/dslab/MASS/index.html
+
 
 ## Wa-Tor
 http://en.wikipedia.org/wiki/Wa-Tor
+
 Observes the population increase/decrease of predator and prey agents in the ocean.
 
 
@@ -29,4 +33,12 @@ The Fishark class inherits from the Agent class, it represents a fish or a shark
 
 The main function, it reads in parameters, and setup Oceans, fisharks, and then run the loop to simulate it. 
 
+
 ## Performance Evaluation
+Num of threads  Execution time (ms)
+
+      1           4653066
+      2           2999944
+      3           2861620
+
+This performance can be improved in multi-threads. From 1 thread to 2 threads, the performance is improved by 4653066/2999944 = 1.55. However, from 4 threads to 2 threads, the performance doesn’t improve. This is based on 100 iterations, 100*100 place.
