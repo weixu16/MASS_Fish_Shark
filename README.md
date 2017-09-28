@@ -16,7 +16,7 @@ Observes the population increase/decrease of predator and prey agents in the oce
 
 
 ## Implementation 
-![Alt text](https://github.com/weixu16/MASS_Wa-Tor/blob/master/picture/project%20overview.png)
+![Alt text](https://github.com/weixu16/MASS_Wa-Tor/blob/master/picture/application%20overview.png)
 
 The Ocean class inherits from the Place, it represents a cell in the ocean, it can hold one fish or one shark. It implements below functions:
 
